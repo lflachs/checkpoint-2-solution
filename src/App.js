@@ -4,6 +4,7 @@ import "./App.css";
 import Homepage from "./Pages/Homepage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Featured from "./Movies/Featured";
+import "./Movies/Movies.scss";
 
 function App() {
   const [allMovies, setAllMovies] = React.useState([]);

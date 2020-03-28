@@ -12,7 +12,7 @@ function FavoriteList({ movies, onDeleteFavorite }) {
   return (
     <section>
       <h1>Favorites</h1>
-      <div>
+      <div className="list">
         {movies.slice(0, limit).map((movie, idx) => (
           <Card
             key={idx}
